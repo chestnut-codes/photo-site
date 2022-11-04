@@ -1,0 +1,22 @@
+img {
+  width: 30%;
+  margin: calc(10% / 6);
+}
+
+/* 30 +30 +30 (margin is 30% per image, 3 images =90%
+    10% leftover
+    each photo has left and right margin 3*2=6
+    10% / 6
+    margins should be set to 1.666% to make all of  the photos even on the page
+    the 'calc' makes this process a lot easier, though */
+
+nav {
+  font-family: "Vollkorn", serif;
+  border-bottom: 2px solid #fdd2e1ea;
+  width: 30%;
+  margin-left: calc(10% / 6);
+  padding: 20px 0px 20px 0px;
+  font-size: 25px;
+}
+
+/* padding goes clockwise: top, right, bottom, left*/
